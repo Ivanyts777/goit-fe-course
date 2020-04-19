@@ -1,0 +1,10 @@
+.site-menu li {
+  display: inline-block;
+  text-align: center;
+  background-color: cornflowerblue;
+ 
+}
+
+.site-menu li :hover {
+  color: brown;
+}
