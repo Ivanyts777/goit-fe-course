@@ -1,10 +1,88 @@
-.site-menu li {
-  display: inline-block;
-  text-align: center;
-  background-color: cornflowerblue;
- 
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+html,
+body {
+  font-family: "Playfair Display", serif;
+}
+/* Горизонтальне меню */
+/* Завдання №1 */
+nav {
+  width: 960px;
+  margin: 0 auto;
 }
 
-.site-menu li :hover {
-  color: brown;
+nav:before {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  padding: 0 40px;
+  text-decoration: none;
+  line-height: 50px;
+}
+
+ul li a:hover {
+  background-color: rgb(184, 4, 4);
+}
+
+/* Завдання №2 */
+
+.article {
+  width: 470px;
+  height: 470px;
+  margin: auto;
+}
+
+.article-concert {
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.lifestyle {
+  color: rgb(172, 165, 165);
+  text-transform: uppercase;
+}
+
+/* Завдання №3 */
+
+.template {
+  width: 970px;
+  height: 470px;
+  margin: auto;
+}
+
+.template-concert {
+  display: inline-block;
+  height: 470px;
+  width: 420px;
+  text-align: left;
+  padding-right: 32px;
+}
+
+.template-coffee {
+  display: inline-block;
+  height: 470px;
+  width: 420px;
+  text-align: left;
+  padding-left: 32px;
 }
