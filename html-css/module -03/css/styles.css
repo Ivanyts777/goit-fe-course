@@ -97,3 +97,7 @@ body {
   color: #000;
   text-decoration: none;
 }
+.btn:hover {
+  border-color: #03a9f4;
+  color: #03a9f4;
+}
