@@ -4,48 +4,41 @@ body {
   font-family: "Playfair Display", serif;
 }
 /* Горизонтальне меню */
-/* Завдання №1 */
-nav {
-  width: 960px;
-  margin: 0 auto;
-}
 
-nav:before {
-  content: "";
-  display: block;
-  height: 50px;
-  width: 100%;
-  background-color: #000;
-  position: absolute;
-  left: 0;
-  z-index: -1;
-}
-
-ul {
+.site-navigation {
+  list-style: none;
+  font-size: 14px;
   margin: 0;
   padding: 0;
-  list-style: none;
-  height: 50px;
+  text-align: center;
 }
 
-ul li {
-  float: left;
+.site-navigation li {
+  display: inline-block;
+  margin-right: 125px;
+  margin-top: 77px;
 }
-
-ul li a {
-  color: #fff;
-  display: block;
-  height: 50px;
-  padding: 0 40px;
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+.site-navigation a {
+  color: #000;
+  text-transform: uppercase;
   text-decoration: none;
-  line-height: 50px;
+  line-height: 16px;
 }
 
-ul li a:hover {
-  background-color: rgb(184, 4, 4);
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #03a9f4;
 }
 
-/* Завдання №2 */
+/* Контент */
+
+.conteiner {
+  width: 900px;
+  margin: 0 auto;
+}
 
 .article {
   width: 470px;
@@ -63,12 +56,11 @@ ul li a:hover {
   text-transform: uppercase;
 }
 
-/* Завдання №3 */
-
 .template {
   width: 970px;
   height: 470px;
   margin: auto;
+  padding-bottom: 130px;
 }
 
 .template-concert {
@@ -77,6 +69,7 @@ ul li a:hover {
   width: 420px;
   text-align: left;
   padding-right: 32px;
+  padding-top: 100px;
 }
 
 .template-coffee {
@@ -85,4 +78,22 @@ ul li a:hover {
   width: 420px;
   text-align: left;
   padding-left: 32px;
+}
+
+/* Кнопка */
+
+.button {
+  text-align: center;
+  margin-top: 57px;
+  margin-bottom: 71px;
+  padding: 20px 20px;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 21px 34px;
+  border: 1px solid #626262;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
 }
