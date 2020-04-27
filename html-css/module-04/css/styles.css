@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500,700&display=swap");
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #626262;
+  font-size: 18px;
+  line-height: 26px;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.site_menu {
+  font-size: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 1030px;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.site_menu li {
+  display: inline-block;
+  margin-right: 34px;
+}
+.site_menu li:last-child {
+  margin-right: 0;
+}
+.site_menu a {
+  color: #000;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 11px;
+  font-weight: 700;
+}
+
+.site_menu a:hover,
+.site_menu a:focus {
+  color: #1abc9c;
+}
+.logo {
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-block;
+}
+.logo::first-letter {
+  color: #1abc9c;
+  font-weight: 800;
+}
+/* Контент */
+
+/* Заголовок */
+
+.featured_products {
+  margin-top: 111px;
+  font-size: 48px;
+  text-align: center;
+  color: #515151;
+}
+
+.featured_products:after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 7px;
+  margin: 32px auto 92px;
+  background-color: #1abc9c;
+}
+
+/* Продукт */
+
+.products {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products_item {
+  width: 285px;
+  display: inline-block;
+}
+
+.products_img {
+  padding-top: 30px;
+}
+.items {
+  text-decoration: none;
+}
+.items :hover,
+.items :focus {
+  background-color: #1abc9c;
+}
+
+.name {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #323232;
+
+  /* Кеопка назви */
+  width: 201px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px 14px;
+  border: 1px solid #323232;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #323232;
+}
+
+.price {
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: #8c8c8c;
+
+  /* кнопка ціни */
+  width: 54px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  padding: 12px 0 12px 0;
+  border: 1px solid #8c8c8c;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #8c8c8c;
+}
+
+.news_title {
+  margin-top: 105px;
+  font-size: 48px;
+  text-align: center;
+  color: #515151;
+}
+
+/* NEWS */
+
+.news_title:after {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 7px;
+  margin: 32px auto 81px;
+  background-color: #1abc9c;
+}
+
+.latest_news {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 83px;
+}
+
+.latest_news_item {
+  width: 380px;
+  display: inline-block;
+}
+
+.news_about {
+  width: 347px;
+}
+
+.news_about::after {
+  content: "";
+  display: block;
+  width: 137px;
+  height: 3px;
+  margin-top: 15px;
+  background-color: #1abc9c;
+  text-align: left;
+}
+.news_about_about {
+  font-size: 14px;
+  margin-bottom: 18px;
+  width: 347px;
+}
+
+/* Кнопка */
+
+.button {
+  text-align: left;
+
+  margin-bottom: 71px;
+}
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 17px 46px;
+  border: 1px solid #4ec6ab;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #4ec6ab;
+  border-radius: 5px;
+}
+.btn:hover {
+  border-color: #4ec6ab;
+}
