@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,500,700,900&display=swap");
 html {
   box-sizing: border-box;
 }
@@ -9,7 +9,7 @@ html {
 }
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
   color: #626262;
   font-size: 18px;
@@ -82,6 +82,13 @@ body {
 
 /* Продукт */
 
+.news_title {
+  margin-top: 105px;
+  font-size: 48px;
+  text-align: center;
+  color: #515151;
+}
+
 .products {
   list-style: none;
   margin: 0;
@@ -92,66 +99,45 @@ body {
   width: 285px;
   display: inline-block;
 }
-
-.products_img {
-  padding-top: 30px;
-}
 .items {
   text-decoration: none;
 }
-.items :hover,
-.items :focus {
+.products_img {
+  display: block;
+}
+.name {
+  width: 201px;
+  background-color: #323232;
+  color: #fff;
+  vertical-align: middle;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 10px;
+  float: left;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.price {
+  display: inline-block;
+  width: 54px;
+  background-color: #8c8c8c;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  
+}
+
+.products a:hover > .name {
   background-color: #1abc9c;
 }
-
-.name {
-  color: #fff;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-color: #323232;
-
-  /* Кеопка назви */
-  width: 201px;
-  display: inline-block;
-  vertical-align: top;
-  padding: 12px 14px;
-  border: 1px solid #323232;
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-  background-color: #323232;
+.products a:hover > .price {
+  background-color: #7fd9c7;
 }
-
-.price {
-  color: #fff;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  background-color: #8c8c8c;
-
-  /* кнопка ціни */
-  width: 54px;
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  padding: 12px 0 12px 0;
-  border: 1px solid #8c8c8c;
-  font-size: 18px;
-  color: #fff;
-  text-decoration: none;
-  background-color: #8c8c8c;
-}
-
-.news_title {
-  margin-top: 105px;
-  font-size: 48px;
-  text-align: center;
-  color: #515151;
-}
-
 /* NEWS */
 
 .news_title:after {
@@ -187,11 +173,13 @@ body {
   margin-top: 15px;
   background-color: #1abc9c;
   text-align: left;
+  font-family: "Open Sans";
 }
 .news_about_about {
   font-size: 14px;
   margin-bottom: 18px;
   width: 347px;
+  font-family: "Open Sans";
 }
 
 /* Кнопка */
