@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,700,900&display=swap");
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+/* Навігація сайту */
+
+.main-nav a {
+  text-decoration: none;
+}
+.site-logo {
+  text-transform: uppercase;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 245px;
+  color: #555252;
+  font-weight: 300;
+  line-height: 32px;
+}
+.site-logo::first-letter {
+  color: #1abc9c;
+  font-weight: 900;
+}
+
+.main-menu {
+  text-transform: uppercase;
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 38px;
+  margin-top: 43px;
+  padding: 0;
+  display: inline-block;
+  text-align: right;
+  width: 1264px;
+  vertical-align: middle;
+}
+.main-menu li {
+  display: inline-block;
+  margin-right: 34px;
+}
+.main-menu-item:last-child {
+  margin-right: 245px;
+}
+
+.main-menu a {
+  color: #000;
+  line-height: 11px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-menu a:hover,
+.main-menu a:focus {
+  color: #1abc9c;
+}
+
+/* САЙТ-ВСТУП */
+
+/* Задній фон */
+
+.site-intro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(../img/beckground/beckground.jpg) center no-repeat;
+  background-size: cover;
+}
+
+/* Текст на фоні */
+
+.site-intro {
+  text-transform: uppercase;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+.site-intro-text1 {
+  font-size: 60px;
+  line-height: 82px;
+  font-weight: 900;
+}
+
+.site-intro-text2 {
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: 300;
+}

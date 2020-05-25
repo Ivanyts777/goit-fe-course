@@ -40,24 +40,13 @@ body {
   margin: 0 auto;
 }
 
-.article {
-  width: 470px;
-  height: 470px;
-  margin: auto;
-}
-
-.article-concert {
-  padding: 20px 20px;
-  text-align: left;
-}
-
 .lifestyle {
   color: rgb(172, 165, 165);
   text-transform: uppercase;
 }
 
 .template {
-  width: 970px;
+  width: 900px;
   height: 470px;
   margin: auto;
   padding-bottom: 130px;
@@ -68,7 +57,7 @@ body {
   height: 470px;
   width: 420px;
   text-align: left;
-  padding-right: 32px;
+  padding-right: 28px;
   padding-top: 100px;
 }
 
@@ -77,7 +66,7 @@ body {
   height: 470px;
   width: 420px;
   text-align: left;
-  padding-left: 32px;
+  padding-left: 28px;
 }
 
 /* Кнопка */
