@@ -46,7 +46,6 @@ body {
 }
 
 .template {
-  width: 900px;
   height: 470px;
   margin: auto;
   padding-bottom: 130px;
@@ -54,19 +53,17 @@ body {
 
 .template-concert {
   display: inline-block;
-  height: 470px;
   width: 420px;
   text-align: left;
-  padding-right: 28px;
-  padding-top: 100px;
+  margin-right: 28px;
+  margin-top: 100px;
 }
 
 .template-coffee {
   display: inline-block;
-  height: 470px;
   width: 420px;
   text-align: left;
-  padding-left: 28px;
+  margin-left: 28px;
 }
 
 /* Кнопка */

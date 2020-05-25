@@ -197,11 +197,6 @@ body {
 
 /* Кнопка */
 
-.button {
-  text-align: left;
-
-  margin-bottom: 71px;
-}
 .btn {
   display: inline-block;
   vertical-align: top;
