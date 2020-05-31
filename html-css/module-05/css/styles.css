@@ -40,12 +40,22 @@ button {
   border: none;
 }
 
-.container {
+body {
   width: 1600px;
   margin: 0 auto;
 }
 
+/* .container {
+  width: 1600px;
+  margin: 0 auto;
+} */
+
 /* Навігація сайту */
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
 
 .main-nav a {
   text-decoration: none;
@@ -54,14 +64,16 @@ button {
   text-transform: uppercase;
   font-size: 30px;
   display: inline-block;
-  margin-left: 245px;
-  color: #555252;
   font-weight: 300;
   line-height: 32px;
+  margin-right: 570px;
 }
 .site-logo::first-letter {
   color: #1abc9c;
   font-weight: 900;
+}
+a:-webkit-any-link {
+  color: #555252;
 }
 
 .main-menu {
@@ -73,15 +85,13 @@ button {
   padding: 0;
   display: inline-block;
   text-align: right;
-  width: 1271px;
-  vertical-align: middle;
 }
 .main-menu li {
   display: inline-block;
   margin-right: 34px;
 }
 .main-menu-item:last-child {
-  margin-right: 245px;
+  margin-right: 0;
 }
 
 .main-menu a {
@@ -98,6 +108,11 @@ button {
 /* САЙТ-ВСТУП */
 
 /* Задній фон */
+.conteiner1 {
+  width: 1600px;
+  margin: auto 0;
+}
+
 .site-intro {
   position: relative;
   text-transform: uppercase;
@@ -170,11 +185,12 @@ button {
   font-weight: 300;
 }
 
-.site-content {
+.container2 {
   background-color: #e9f0fd;
   padding-top: 100px;
-
   height: 776px;
+  width: 1600px;
+  margin: auto 0;
 }
 
 /* NEW COLLECTION */
@@ -184,7 +200,6 @@ button {
   font-weight: 900;
   line-height: 58px;
   text-align: center;
-
   color: #515151;
 }
 
@@ -194,10 +209,14 @@ button {
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
-  margin: 32px auto 80px;
+  margin: 26px auto 0;
 }
 
 /* Site content collection */
+
+.site-content-collection {
+  margin-top: 80px;
+}
 
 .site-content-item {
   width: 255px;
@@ -271,11 +290,16 @@ button {
 .btn-bin img {
   margin-left: 12px;
 }
+.bin-img {
+  position: absolute;
+  top: 60%;
+}
 
 .btn-bin span {
   text-transform: uppercase;
   font-size: 14px;
-  margin-left: 10px;
+  margin-left: 50px;
+  line-height: 50px;
 }
 
 .name {
@@ -303,12 +327,10 @@ button {
   padding: 10px;
 }
 
-.site-content-collection a:hover > .name {
+.site-content-item:hover {
   background-color: #1abc9c;
 }
-.site-content-collection a:hover > .price {
-  background-color: #7fd9c7;
-}
+
 .site-content-collection :last-child {
   margin-right: 0;
 }
