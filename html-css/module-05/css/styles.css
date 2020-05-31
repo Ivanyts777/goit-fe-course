@@ -110,7 +110,7 @@ a:-webkit-any-link {
 /* Задній фон */
 .conteiner1 {
   width: 1600px;
-  margin: auto 0;
+  margin: 0 auto;
 }
 
 .site-intro {
