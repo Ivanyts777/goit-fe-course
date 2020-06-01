@@ -216,6 +216,7 @@ a:-webkit-any-link {
 
 .site-content-collection {
   margin-top: 80px;
+  font-size: 0;
 }
 
 .site-content-item {
