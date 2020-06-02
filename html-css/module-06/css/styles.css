@@ -250,10 +250,10 @@ a {
   position: relative;
 }
 
-.img-bacgraund:hover .overlay {
+.info-card:hover .overlay {
   opacity: 80%;
 }
-.img-bacgraund:hover .social {
+.info-card:hover .social {
   opacity: 100%;
 }
 
