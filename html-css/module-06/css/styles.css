@@ -251,28 +251,31 @@ a {
 }
 
 .info-card:hover .overlay {
-  opacity: 80%;
+  opacity: 100%;
 }
 .info-card:hover .social {
   opacity: 100%;
 }
 
 .overlay {
-  background: linear-gradient(to bottom, #f38181, #fce38a);
+  background: linear-gradient(
+    to bottom right,
+    rgba(252, 227, 138, 0.8),
+    rgba(156, 98, 98, 0.8)
+  );
   transition: transform 0.2s linear;
   height: 470px;
   width: 380px;
   position: absolute;
   z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0%;
 }
 
 .social {
   width: 224px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 0;
   z-index: 2;
   opacity: 0%;
