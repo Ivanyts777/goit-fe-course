@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/roboto-slab-v11-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v11-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/roboto-slab-v11-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/roboto-slab-v11-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Architects Daughter";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Architects Daughter Regular"), local("ArchitectsDaughter-Regular"),
+    url("../fonts/architects-daughter-v10-latin-regular.woff2") format("woff2"),
+    url("../fonts/architects-daughter-v10-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin_cyrillic-regular.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin_cyrillic-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin_cyrillic-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Satisfy Regular"), local("Satisfy-Regular"),
+    url("../fonts/satisfy-v10-latin-regular.woff2") format("woff2"),
+    url("../fonts/satisfy-v10-latin-regular.woff") format("woff");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #777777;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* ----------- ХЕДЕР ----------- */
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  align-items: baseline;
+}
+
+.logo {
+  font-family: "Satisfy";
+  font-size: 26px;
+  color: #fed136;
+  line-height: 1.577;
+}
+
+.nav-menu {
+  display: flex;
+}
+.nav-menu li {
+  margin-right: 40px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 2.929;
+}
+.nav-menu li:last-child {
+  margin-right: 0;
+}
+
+.nav-menu a {
+  color: #000;
+}
+.nav-menu a:hover {
+  color: #fed136;
+  transition: 0.1s linear;
+}
+
+/* --------- CONTAINER #1 --------- */
+
+.title {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.875;
+  text-align: center;
+  margin-top: 126px;
+}
+
+.title-text {
+  tab-size: 14px;
+  font-family: "Architects Daughter";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 85px;
+}
+
+.services {
+  padding-bottom: 119px;
+}
+
+.services-block {
+  display: flex;
+}
+
+.services-block li {
+  text-align: center;
+  width: 290px;
+  margin-right: 35px;
+}
+.services-block li:last-child {
+  margin-right: 0px;
+}
+
+.circle {
+  margin: 0 auto;
+  position: relative;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(254, 209, 54);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  width: 72px;
+  height: 71px;
+}
+
+.circle img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.services-text {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+  line-height: 4.167;
+}
+
+.srvcices-text2 {
+  font-size: 14px;
+  font-family: "Roboto Slab";
+  line-height: 1.2;
+}
+
+/* --------- CONTAINER #2 --------- */
+
+.bg-form {
+  background-image: url(../img/background/bg-form.jpg);
+  width: 100%;
+
+  background-size: cover;
+}
+.titte-form {
+  color: #fff;
+  margin-top: 0;
+  padding-top: 109px;
+}
+
+/* Форми */
+
+.forms {
+  display: flex;
+  justify-content: space-between;
+}
+.form-content {
+  padding-bottom: 115px;
+}
+
+.form1 {
+  display: flex;
+  flex-direction: column;
+}
+.input-text {
+  width: 455px;
+  height: 50px;
+  outline: none;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 16px;
+  padding-left: 20px;
+}
+
+.form1 input {
+  margin-bottom: 30px;
+}
+
+.form1 input:last-child {
+  margin-bottom: 0px;
+}
+
+.form2 textarea {
+  width: 455px;
+  height: 100%;
+  resize: none;
+  outline: none;
+}
+.form3 {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 16px;
+  padding: 20px 20px;
+}
+
+.input-text:focus:invalid {
+  border-color: rgb(255, 0, 0);
+}
+
+.input-text:focus:valid {
+  border-color: rgb(0, 128, 0);
+}
+
+.form3:focus:invalid {
+  border-color: rgb(255, 0, 0);
+}
+.form3:focus:valid {
+  border-color: rgb(0, 128, 0);
+}
+
+.btn-form {
+  display: block;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #fff;
+  width: 240px;
+  height: 66px;
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  margin-top: 30px;
+  border: transparent;
+}

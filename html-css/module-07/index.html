@@ -5,10 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
 
     <title>Module-07</title>
   </head>
 
-  <body></body>
+  <body>
+    <!-- Навігація -->
+    <header>
+      <div class="container">
+        <nav class="navigation">
+          <a class="logo" href="#">Golden</a>
+          <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="container">
+          <h2 class="title">Services</h2>
+          <p class="title-text">Proin iaculis purus consequat sem cure.</p>
+          <div class="services">
+            <ul class="services-block">
+              <li>
+                <div class="circle">
+                  <img
+                    src="img/icons/icon.png"
+                    alt="basket"
+                    width="40"
+                    height="39"
+                  />
+                </div>
+                <h3 class="services-text">E-Commerce</h3>
+                <p class="srvcices-text2">
+                  Proin iaculis purus consequat sem cure digni ssim. Donec
+                  porttitora entum suscipit aenean rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </li>
+              <li>
+                <div class="circle">
+                  <img
+                    src="img/icons/icon1.png"
+                    alt="basket"
+                    width="41"
+                    height="35"
+                  />
+                </div>
+                <h3 class="services-text">Responsive Web</h3>
+                <p class="srvcices-text2">
+                  Proin iaculis purus consequat sem cure digni ssim. Donec
+                  porttitora entum suscipit aenean rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </li>
+              <li>
+                <div class="circle">
+                  <img
+                    src="img/icons/icon2.png"
+                    alt="basket"
+                    width="29"
+                    height="38"
+                  />
+                </div>
+                <h3 class="services-text">Web Security</h3>
+                <p class="srvcices-text2">
+                  Proin iaculis purus consequat sem cure digni ssim. Donec
+                  porttitora entum suscipit aenean rhoncus posuere odio in
+                  tincidunt.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-form">
+        <div class="container">
+          <h2 class="title titte-form">Contact us</h2>
+          <p class="title-text">Proin iaculis purus consequat sem cure.</p>
+          <form class="form-content" action="#" method="POST">
+            <div class="forms">
+              <div class="form1">
+                <input
+                  class="input-text"
+                  type="text"
+                  name="name"
+                  required
+                  placeholder="your Name *"
+                />
+                <input
+                  class="input-text"
+                  type="email"
+                  name="email"
+                  required
+                  placeholder="your e-mail *"
+                />
+                <input
+                  class="input-text"
+                  type="text"
+                  name="subject"
+                  required
+                  placeholder="subject"
+                />
+              </div>
+              <div class="form2">
+                <textarea
+                  class="form3"
+                  minlength="5"
+                  name="message"
+                  placeholder="Your message *"
+                  required
+                ></textarea>
+              </div>
+            </div>
+            <button class="btn-form" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
