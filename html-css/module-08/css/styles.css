@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
 
 * {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  margin: 0;
 }
 
 h1,
@@ -30,6 +31,362 @@ button {
   cursor: pointer;
 }
 
+body {
+  min-width: 320px;
+}
 /* ------ Module #8 ------ */
 
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
 
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 942px) {
+  .container {
+    width: 942px;
+    margin: 0 auto;
+  }
+}
+
+.top {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../img/background/Vector.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 38px;
+  }
+}
+
+@media (min-width: 942px) {
+  .nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-iten {
+  background-color: transparent;
+  width: 94px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+
+
+.menu-iten:hover {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    display: block;
+  }
+}
+
+.intro {
+  padding-bottom: 138px;
+}
+
+@media (min-width: 768px) {
+  .intro {
+    padding-bottom: 234px;
+  }
+}
+
+.logo-2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  margin-top: 118px;
+}
+@media (min-width: 768px) {
+  .logo-2 {
+    display: none;
+  }
+}
+.intro-con {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .intro-con {
+    width: 532px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 942px) {
+  .intro-con {
+    width: 532px;
+    margin: 0 auto;
+  }
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  color: #fff;
+  margin-top: 34px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    margin-top: 154px;
+    font-size: 52px;
+    line-height: 62px;
+  }
+}
+
+.text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .text {
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 40px;
+  }
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  width: 280px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}
+
+.btn-over {
+  margin-top: 18px;
+  background-color: rgb(255, 78, 80);
+  border: 2px solid rgb(255, 78, 80);
+}
+
+@media (min-width: 768px) {
+  .btn-over {
+    width: 226px;
+    margin-top: 37px;
+  }
+}
+
+@media (min-width: 942px) {
+  .btn-over {
+    width: 226px;
+    margin-top: 37px;
+  }
+}
+
+.btn-over:hover {
+  background-color: transparent;
+  color: rgb(255, 78, 80);
+  transition: 0.2s;
+  border: 2px solid rgb(255, 78, 80);
+}
+
+/* ------ MAIN ------- */
+
+.partners-title {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+  padding-top: 72px;
+}
+
+@media (min-width: 768px) {
+  .partners-title {
+    margin-bottom: 34px;
+  }
+}
+
+.partners-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+}
+
+@media (min-width: 768px) {
+  .partners-info {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 492px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 942px) {
+  .partners-info {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.partners-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .partners-cards {
+    margin-top: 0;
+    height: 235px;
+    margin-bottom: 25px;
+  }
+}
+
+.partners-cards:first-child {
+  margin-top: 0;
+}
+
+.parnter-img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.partner-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.partner-name {
+  margin-top: 18px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 16px;
+  text-align: center;
+}
+
+.partner-about {
+  margin-top: 18px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  line-height: 16px;
+  text-align: center;
+}
+
+.btn-under {
+  margin-top: 28px;
+  background: none;
+  border: 2px solid rgb(255, 78, 80);
+  color: rgb(255, 78, 80);
+}
+
+@media (min-width: 768px) {
+  .btn-under {
+    margin-top: 34px;
+    width: 197px;
+    height: 44px;
+  }
+}
+@media (min-width: 942px) {
+  .btn-under {
+    width: 197px;
+    height: 44px;
+  }
+}
+
+.btn-under:hover {
+  background-color: rgb(255, 78, 80);
+  color: #fff;
+  transition: 0.2s;
+}
+
+.bottom {
+  padding-bottom: 57px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .bottom {
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 942px) {
+  .bottom {
+    padding-bottom: 73px;
+  }
+}
