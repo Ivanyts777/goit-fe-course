@@ -54,7 +54,7 @@ body {
     margin: 0 auto;
   }
 }
-
+/* -------- Задній фон ------- */
 .top {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../img/background/Vector.jpg);
@@ -62,7 +62,7 @@ body {
   background-position: top;
   background-size: cover;
 }
-
+/* -------- Навігація ------- */
 .nav {
   display: flex;
   justify-content: center;
@@ -147,6 +147,9 @@ body {
     display: none;
   }
 }
+
+/* -------- Секція 1 ------- */
+
 .intro-con {
   text-align: center;
 }
@@ -241,6 +244,8 @@ body {
 }
 
 /* ------ MAIN ------- */
+
+/* -------- Секція 2 ------- */
 
 .partners-title {
   font-size: 22px;
