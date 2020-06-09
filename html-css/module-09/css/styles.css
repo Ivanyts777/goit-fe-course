@@ -37,23 +37,11 @@ body {
 /* ------ Module #8 ------ */
 
 .container {
-  width: 320px;
+  max-width: 1170px;
+  min-width: 320px;
   margin: 0 auto;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: 768px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 942px) {
-  .container {
-    width: 942px;
-    margin: 0 auto;
-  }
-}
 /* -------- Задній фон ------- */
 .top {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -68,22 +56,6 @@ body {
   justify-content: center;
   padding-top: 20px;
   align-items: center;
-}
-
-@media (min-width: 768px) {
-  .nav {
-    justify-content: space-between;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 38px;
-  }
-}
-
-@media (min-width: 942px) {
-  .nav {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 }
 
 .menu {
@@ -113,23 +85,13 @@ body {
   font-weight: 700;
   line-height: 24px;
   color: #fff;
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .logo {
-    display: block;
-  }
+  /* display: none; */
 }
 
 .intro {
   padding-bottom: 138px;
-}
-
-@media (min-width: 768px) {
-  .intro {
-    padding-bottom: 234px;
-  }
+  /* width: 320px;
+  margin: 0 auto; */
 }
 
 .logo-2 {
@@ -140,25 +102,13 @@ body {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  margin-top: 118px;
-}
-@media (min-width: 768px) {
-  .logo-2 {
-    display: none;
-  }
 }
 
 /* -------- Секція 1 ------- */
 
 .intro-con {
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .intro-con {
-    width: 532px;
-    margin: 0 auto;
-  }
+  margin-top: 100px;
 }
 
 .title {
@@ -171,14 +121,6 @@ body {
   margin-top: 34px;
 }
 
-@media (min-width: 768px) {
-  .title {
-    margin-top: 154px;
-    font-size: 52px;
-    line-height: 62px;
-  }
-}
-
 .text {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
@@ -186,14 +128,6 @@ body {
   line-height: 22px;
   color: #fff;
   margin-top: 20px;
-}
-
-@media (min-width: 768px) {
-  .text {
-    font-size: 24px;
-    line-height: 28px;
-    margin-top: 40px;
-  }
 }
 
 .btn {
@@ -213,13 +147,6 @@ body {
   margin-top: 18px;
   background-color: rgb(255, 78, 80);
   border: 2px solid rgb(255, 78, 80);
-}
-
-@media (min-width: 768px) {
-  .btn-over {
-    width: 226px;
-    margin-top: 37px;
-  }
 }
 
 .btn-over:hover {
@@ -243,12 +170,6 @@ body {
   padding-top: 72px;
 }
 
-@media (min-width: 768px) {
-  .partners-title {
-    margin-bottom: 34px;
-  }
-}
-
 .partners-info {
   display: flex;
   flex-direction: column;
@@ -256,42 +177,13 @@ body {
   margin-top: 18px;
 }
 
-@media (min-width: 768px) {
-  .partners-info {
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 492px;
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 942px) {
-  .partners-info {
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    width: 100%;
-  }
-}
-
 .partners-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px;
-  margin-top: 30px;
-}
-
-@media (min-width: 768px) {
-  .partners-cards {
-    margin-top: 0;
-    height: 235px;
-    margin-bottom: 25px;
-  }
-}
-
-.partners-cards:first-child {
-  margin-top: 0;
+  width: 220px;
+  height: 235px;
+  margin-top: 37px;
 }
 
 .parnter-img {
@@ -342,20 +234,6 @@ body {
   color: rgb(255, 78, 80);
 }
 
-@media (min-width: 768px) {
-  .btn-under {
-    margin-top: 34px;
-    width: 197px;
-    height: 44px;
-  }
-}
-@media (min-width: 942px) {
-  .btn-under {
-    width: 197px;
-    height: 44px;
-  }
-}
-
 .btn-under:hover {
   background-color: rgb(255, 78, 80);
   color: #fff;
@@ -365,16 +243,4 @@ body {
 .bottom {
   padding-bottom: 57px;
   text-align: center;
-}
-
-@media (min-width: 768px) {
-  .bottom {
-    padding-bottom: 40px;
-  }
-}
-
-@media (min-width: 942px) {
-  .bottom {
-    padding-bottom: 73px;
-  }
 }

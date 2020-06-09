@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
 
-    <title>Module-08</title>
+    <title>Module-09</title>
   </head>
 
   <body>
     <!-- Навігація  -->
     <header class="top">
       <div class="container">
-        <nav class="nav">
-          <a class="logo" href="#">URLAUBSGLÜCK</a>
+        <div class="row">
+        <nav class="nav col-12 justify-content-md-between justify-content-lg-between">
+          <a class="logo d-none d-md-inline" href="#">URLAUBSGLÜCK</a>
           <ul class="menu">
             <li><button class="menu-iten">Log in</button></li>
             <li><button class="menu-iten">Sign up</button></li>
           </ul>
+          </div>
         </nav>
         <!--  Секція 1  -->
         <section class="intro">
-          <div class="intro-con">
-            <p class="logo-2">URLAUBSGLÜCK</p>
+          <div class="row">
+          <div class="intro-con col-12 text-center">
+            <p class="logo-2 d-md-none">URLAUBSGLÜCK</p>
             <h1 class="title">Share your holiday dreams</h1>
             <p class="text">And find the perfect partner to fullfill it</p>
             <button class="btn-over btn">Find your holiday partner</button>
+          </div>
           </div>
         </section>
       </div>
@@ -35,9 +40,12 @@
     <main>
       <section class="partners-list">
         <div class="container bottom">
-          <h2 class="partners-title">Meet a partner for your best holiday</h2>
-          <ul class="partners-info">
-            <li class="partners-cards">
+          <div class="row">
+          <h2 class="partners-title col-12">Meet a partner for your best holiday</h2>
+          </div>
+          <div class="row justify-content-center">
+          <ul class="partners-info flex-md-row justify-content-md-between flex-md-wrap">
+            <li class="partners-cards  col-md-6 col-lg-3">
               <div class="parnter-img">
                 <img
                   src="img/team/team1.jpg"
@@ -59,7 +67,7 @@
                 Based in Chicago. I love playing tennis and loud music.
               </p>
             </li>
-            <li class="partners-cards">
+            <li class="partners-cards  col-md-6 col-lg-3">
               <div class="parnter-img">
                 <img
                   src="img/team/team2.jpg"
@@ -82,7 +90,7 @@
                 passion to colours, typography and skateboards.
               </p>
             </li>
-            <li class="partners-cards">
+            <li class="partners-cards  col-md-6 col-lg-3">
               <div class="parnter-img">
                 <img
                   src="img/team/team3.jpg"
@@ -104,7 +112,7 @@
                 I'm a happy person that loves cats and climbing on mountains.
               </p>
             </li>
-            <li class="partners-cards">
+            <li class="partners-cards  col-md-6 col-lg-3">
               <div class="parnter-img">
                 <img
                   src="img/team/team4.jpg"
@@ -127,7 +135,12 @@
               </p>
             </li>
           </ul>
-          <button class="btn-under btn">See other partners</button>
+          </div>
+          <div class="row">
+            <div class="col-12 ">
+          <button class="btn-under btn ">See other partners</button>
+          </div>
+          </div>
         </div>
       </section>
     </main>
