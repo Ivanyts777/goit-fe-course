@@ -316,6 +316,16 @@ body {
   right: 0;
 }
 
+.color-icon {
+  background-color: rgb(28, 215, 173);
+}
+.color-icon-2 {
+  background-color: rgb(255, 165, 7);
+}
+.color-icon-3 {
+  background-color: rgb(78, 115, 219);
+}
+
 .partner-name {
   margin-top: 18px;
   font-size: 14px;
