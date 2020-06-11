@@ -173,7 +173,7 @@ a {
   text-align: center;
 }
 
-.title-text__1 {
+.title-text1 {
   font-family: "Kaushan Script";
   font-size: 72px;
   font-weight: 400;
@@ -181,7 +181,7 @@ a {
   color: #fff;
 }
 
-.title-text__2 {
+.title-text2 {
   font-family: "Montserrat";
   font-size: 150px;
   font-weight: 700;
@@ -222,7 +222,7 @@ a {
   text-align: center;
 }
 
-.section-title__1 {
+.section-title1 {
   font-family: "Kaushan Script";
   font-size: 24px;
   font-weight: 400;
@@ -230,7 +230,7 @@ a {
   color: #333;
 }
 
-.section-title__2 {
+.section-title2 {
   font-family: "Montserrat";
   font-size: 30px;
   font-weight: 700;
@@ -308,11 +308,11 @@ a {
 
 /* Блок з картками */
 
-.team-info {
+.team__info {
   margin-top: 96px;
 }
 
-.team-cards {
+.team__cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,7 +321,7 @@ a {
   justify-content: space-between;
 }
 
-.team-cards__list:hover .team-cards__bacgraund {
+.team__cards-list:hover .team__cards-bacgraund {
   -webkit-transform: translate(-10px, -10px);
   -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
@@ -332,18 +332,18 @@ a {
   transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
-.team-cards__bacgraund {
+.team__cards-bacgraund {
   position: relative;
 }
 
-.team-cards__list:hover .team-cards__overlay {
+.team__cards-list:hover .team__cards-overlay {
   opacity: 100%;
 }
-.team-cards__list:hover .social-item {
+.team__cards-list:hover .social__item {
   opacity: 100%;
 }
 
-.team-cards__overlay {
+.team__cards-overlay {
   background: -webkit-gradient(
     linear,
     left bottom,
@@ -382,20 +382,20 @@ a {
   opacity: 0%;
 }
 
-.team-cards__social {
+.team__cards-social {
   background-color: #95e1d3;
   height: 470px;
   width: 380px;
 }
 
-.social-item {
+.social__item {
   width: 224px;
   font-size: 0;
   z-index: 2;
   opacity: 0%;
 }
 
-.social-item__link {
+.social__item-link {
   display: inline-block;
   width: 55px;
   height: 55px;
@@ -406,22 +406,22 @@ a {
   margin-left: 1px;
 }
 
-.social-item__link:hover {
+.social__item-link:hover {
   background-color: #f38181;
   fill: #fff;
 }
 
-.social-item__icon {
+.social__item-icon {
   fill: rgb(243, 129, 129);
   width: 26px;
   height: 24px;
 }
 
-.social-item__link:hover .social-item__icon {
+.social__item-link:hover .social__item-icon {
   fill: #fff;
 }
 
-.teame-name {
+.teame__name {
   font-family: "Montserrat";
   font-size: 14px;
   line-height: 17px;
@@ -432,7 +432,7 @@ a {
   text-transform: uppercase;
 }
 
-.teame-position {
+.teame__position {
   font-family: "Roboto";
   font-style: italic;
   font-size: 15px;
@@ -466,7 +466,7 @@ hr {
 
 /* інфо автора */
 
-.footer-info {
+.footer__info {
   font-family: "Montserrat";
   font-size: 14px;
   line-height: 17px;
@@ -474,20 +474,20 @@ hr {
   margin-top: 15px;
 }
 
-.footer-info__link {
+.footer__info-link {
   color: #f38181;
 }
 
 /* кнопка+поле для Email */
 
-.footer-subscribe {
+.footer__subscribe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-width: 380px;
 }
 
-.footer-subscribe__input {
+.footer__subscribe-input {
   outline: none;
   width: 60%;
   height: 40px;
@@ -502,7 +502,7 @@ hr {
   color: #000;
 }
 
-.footer-subscribe__btn {
+.footer__subscribe-btn {
   outline: none;
   width: 40%;
   height: 40px;
@@ -520,6 +520,6 @@ hr {
   transition: background 0.2s linear;
 }
 
-.footer-subscribe__btn:hover {
+.footer__subscribe-btn:hover {
   background-color: #7cbeb2;
 }
