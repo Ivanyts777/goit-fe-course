@@ -323,11 +323,15 @@ a {
 }
 
 .cards__list:hover .cards__bacgraund {
+  -webkit-transform: translate(-10px, -10px);
+  -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }
 
 .cards__bacgraund {
   position: relative;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
