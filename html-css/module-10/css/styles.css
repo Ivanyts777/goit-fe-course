@@ -192,18 +192,22 @@ a {
   margin-top: 22px;
 }
 
-.title__btn {
-  border: 3px solid #fff;
-  color: #fff;
+.btn {
   width: 164px;
   height: 44px;
-  background-color: transparent;
   text-transform: uppercase;
   font-family: "Montserrat";
   font-weight: 700;
-  margin-top: 110px;
+  font-size: 14px;
   outline: none;
   cursor: pointer;
+  color: #fff;
+}
+
+.title__btn {
+  border: 3px solid #fff;
+  background-color: transparent;
+  margin-top: 110px;
 }
 
 .title__btn:hover {
@@ -489,7 +493,7 @@ hr {
 .subscribe__input {
   outline: none;
   width: 60%;
-  height: 40px;
+  height: 44px;
   padding: 12px;
   background-color: #fff;
   border: 1px solid #cccccc;
@@ -502,17 +506,8 @@ hr {
 }
 
 .subscribe__btn {
-  outline: none;
-  width: 40%;
-  height: 40px;
   padding: 12px 30px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  color: #fff;
   background-color: #95e1d3;
-  font-family: "Montserrat";
-  cursor: pointer;
   border: 0;
   -webkit-transition: background 0.2s linear;
   -o-transition: background 0.2s linear;
