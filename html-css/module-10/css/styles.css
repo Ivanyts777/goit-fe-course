@@ -323,18 +323,12 @@ a {
 }
 
 .cards__list:hover .cards__bacgraund {
-  -webkit-transform: translate(-10px, -10px);
-  -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
-  -o-transition: transform 0.2s linear;
-  transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .cards__bacgraund {
   position: relative;
+  transition: all 0.2s linear;
 }
 
 .cards__list:hover .cards__overlay {
@@ -383,7 +377,7 @@ a {
   opacity: 0%;
 }
 
-.cards-social {
+.cards__social {
   background-color: #95e1d3;
   height: 470px;
   width: 380px;
