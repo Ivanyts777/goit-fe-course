@@ -140,6 +140,7 @@ a {
   text-transform: uppercase;
   color: #fff;
   padding: 12px 0;
+  border: none;
 }
 
 .navigation-menu a:hover {
