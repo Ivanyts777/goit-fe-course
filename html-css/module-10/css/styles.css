@@ -116,7 +116,7 @@ a {
   color: #fff;
 }
 
-.navigation ul {
+.navigation__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,15 +124,11 @@ a {
   -ms-flex-align: end;
   align-items: flex-end;
 }
-.navigation li {
+.menu__item {
   margin-right: 55px;
 }
 
-.navigation li:last-child {
-  margin-right: 0px;
-}
-
-.navigation__menu a {
+.menu__item-link {
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 14px;
@@ -143,7 +139,7 @@ a {
   border-bottom: 3px solid transparent;
 }
 
-.navigation__menu a:hover {
+.menu__item-link:hover {
   color: #fce38a;
   border-color: #fce38a;
   -webkit-transition: 0.1s linear;
@@ -151,9 +147,13 @@ a {
   transition: 0.1s linear;
 }
 
-.navigation__menu a:focus {
+.menu__item-link:focus {
   color: #fce38a;
   border-bottom: 3px solid #fce38a;
+}
+
+.menu__link:last-child {
+  margin-right: 0px;
 }
 
 .navigation__icon {
@@ -322,27 +322,27 @@ a {
   justify-content: space-between;
 }
 
-.cards__list:hover .cards__bacgraund {
+.card:hover .card__bacgraund {
   -webkit-transform: translate(-10px, -10px);
   -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }
 
-.cards__bacgraund {
+.card__bacgraund {
   position: relative;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
-.cards__list:hover .cards__overlay {
+.card:hover .card__overlay {
   opacity: 100%;
 }
-.cards__list:hover .social__item {
+.card:hover .social {
   opacity: 100%;
 }
 
-.cards__overlay {
+.card__overlay {
   background: -webkit-gradient(
     linear,
     left bottom,
@@ -381,20 +381,20 @@ a {
   opacity: 0%;
 }
 
-.cards__social {
+.card__social {
   background-color: #95e1d3;
   height: 470px;
   width: 380px;
 }
 
-.social__item {
+.social {
   width: 224px;
   font-size: 0;
   z-index: 2;
   opacity: 0%;
 }
 
-.social__item-link {
+.social__link {
   display: inline-block;
   width: 55px;
   height: 55px;
@@ -405,18 +405,18 @@ a {
   margin-left: 1px;
 }
 
-.social__item-link:hover {
+.social__link:hover {
   background-color: #f38181;
   fill: #fff;
 }
 
-.social__item-icon {
+.social__link-icon {
   fill: rgb(243, 129, 129);
   width: 26px;
   height: 24px;
 }
 
-.social__item-link:hover .social__item-icon {
+.social__link:hover .social__link-icon {
   fill: #fff;
 }
 
