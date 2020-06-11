@@ -140,12 +140,12 @@ a {
   text-transform: uppercase;
   color: #fff;
   padding: 12px 0;
-  border: none;
+  border-bottom: 3px solid transparent;
 }
 
 .navigation__menu a:hover {
   color: #fce38a;
-  border-bottom: 3px solid #fce38a;
+  border-color: #fce38a;
   -webkit-transition: 0.1s linear;
   -o-transition: 0.1s linear;
   transition: 0.1s linear;
@@ -320,19 +320,16 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .cards__list:hover .cards__bacgraund {
   -webkit-transform: translate(-10px, -10px);
   -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
-}
-
-.cards__bacgraund {
-  position: relative;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
 }
 
 .cards__list:hover .cards__overlay {
@@ -343,6 +340,7 @@ a {
 }
 
 .cards__overlay {
+  font-size: 0;
   background: -webkit-gradient(
     linear,
     left bottom,
@@ -385,13 +383,6 @@ a {
   background-color: #95e1d3;
   height: 470px;
   width: 380px;
-}
-
-.social__item {
-  width: 224px;
-  font-size: 0;
-  z-index: 2;
-  opacity: 0%;
 }
 
 .social__item-link {
