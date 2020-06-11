@@ -481,14 +481,14 @@ hr {
 
 /* кнопка+поле для Email */
 
-.footer__subscribe {
+.subscribe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   min-width: 380px;
 }
 
-.footer__subscribe-input {
+.subscribe__input {
   outline: none;
   width: 60%;
   height: 40px;
@@ -503,7 +503,7 @@ hr {
   color: #000;
 }
 
-.footer__subscribe-btn {
+.subscribe__btn {
   outline: none;
   width: 40%;
   height: 40px;
@@ -521,6 +521,6 @@ hr {
   transition: background 0.2s linear;
 }
 
-.footer__subscribe-btn:hover {
+.subscribe__btn:hover {
   background-color: #7cbeb2;
 }
