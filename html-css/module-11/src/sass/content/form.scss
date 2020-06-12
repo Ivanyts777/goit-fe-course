@@ -27,7 +27,8 @@
     -o-transition: background 0.2s linear;
     transition: background 0.2s linear;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: $medium-aqua;
     }
   }

@@ -86,7 +86,8 @@
     height: 18px;
     fill: $white;
 
-    &:hover {
+    &:hover,
+    &:focus {
       fill: $orange;
     }
   }
@@ -110,16 +111,13 @@
     padding: 12px 0;
     border-bottom: 3px solid transparent;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $orange;
       border-color: $orange;
       -webkit-transition: 0.1s linear;
       -o-transition: 0.1s linear;
       transition: 0.1s linear;
-    }
-    &:focus {
-      color: $orange;
-      border-bottom: 3px solid $orange;
     }
   }
 }
@@ -148,7 +146,8 @@
     background-color: transparent;
     margin-top: 110px;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: $gray;
       -webkit-transition: 0.2s linear;
       -o-transition: 0.2s linear;
