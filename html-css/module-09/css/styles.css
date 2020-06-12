@@ -48,7 +48,7 @@ body {
     url(../img/background/Vector1.png);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: initial;
+  background-size: cover;
 }
 /* -------- Навігація ------- */
 .nav {
