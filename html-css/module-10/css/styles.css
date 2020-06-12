@@ -152,7 +152,7 @@ a {
   border-bottom: 3px solid #fce38a;
 }
 
-.menu__link:last-child {
+.menu__item:last-child {
   margin-right: 0px;
 }
 
@@ -447,13 +447,7 @@ a {
 
 /* підкреслення */
 
-hr {
-  width: 1200px;
-  display: block;
-  height: 1px;
-  background-color: rgb(229, 229, 229);
-  margin-top: 83px;
-}
+c
 
 /* ФУТЕР */
 
